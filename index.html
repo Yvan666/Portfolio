@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://kit.fontawesome.com/7cece14a84.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>web05</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <i class="fa-solid fa-bars" onclick="myFunction()"></i>
+            <nav class="navigation" id="myDropdown">
+                <ul>
+                    <li><a href="#about-me">about me</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="about-me" class="subheader">
+            <div class="wrapper">
+                <h2><span>Bc.</span> Ivan LATKÓCZY</h2>
+                <h1><s>Professional</s><span> Amateur Web Developer</span></h1>
+            </div>
+        </div>
+        <section class="about">
+            <div class="wrapper">
+                <div class="portrait ">
+                    <img src="imgs/myphoto.jpg" alt="myphoto">
+                </div>
+                <div class="text">
+                    <h2>About me</h2>
+                    <p>I am an engineering student at STU MTF. Friendly, determined and willing to learn new things. I am currently looking for a brigade or part time work with the possibility of transfer to full time after school (I will graduate in engineer
+                        degree next year - 2023).</p>
+                    <p>90% of my time I listen to music and I also like to go to concerts ... if the current situation allows. I play the guitar for about 12 years. </p>
+                    <p>For a long time I was in college looking for what I enjoy in the field of programming and what I would like to make a living in in the future. I tried everything possible (including the bachelor's thesis "Software for analysis of amplitude
+                        variability in time series" written in Python) until I tried the front-end, which I avoided. It caught me so much that I learned everything I needed to create basic websites for about a few weeks now, and I'm currently working
+                        on React, JavaScript, and more.</p>
+                </div>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <div class="wrapper">
+                <h1>Education</h1>
+                <hr>
+                <div class="high-school">
+                    <h2>High School</h2>
+                    <p>2014 - 2018</p>
+                    <h3>SPSE Zochova</h3>
+                    <p>Computer Systems</p>
+                </div>
+                <div class="university">
+                    <h2>University</h2>
+                    <p>2018- 2021</p>
+                    <h3>STU Faculty of Material Sciences and Technology</h3>
+                    <p>Applied Informatics and Automation in Industry</p>
+                </div>
+                <div class="university">
+                    <h2>University</h2>
+                    <p>2021- now</p>
+                    <h3>STU Faculty of Material Sciences and Technology</h3>
+                    <p>Process Automation and Informatization in Industry</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="wrapper">
+                <h1>Skills</h1>
+                <hr>
+                <div class="language-skills">
+                    <h2>Language skills</h2>
+                    <p>English - intermediate (B1)</p>
+                    <p>German - intermediate (B1)</p>
+                </div>
+                <div class="programming-skills">
+                    <h2>Programming skills</h2>
+                    <div class="skills-wrapper">
+                        <div class="programming-skills-left">
+                            <p>HTML - intermediate</p>
+                            <p>CSS - intermediate</p>
+                            <p>JavaScript - basics</p>
+                            <p>Python - intermediate</p>
+                            <p>C - Basics</p>
+                            <p>UML - Unified Modeling Language - Basics</p>
+                        </div>
+                        <div class="programming-skills-right">
+                            <p>ReactJs - basics</p>
+                            <p>C# - Basics</p>
+                            <p>C++ - Basics</p>
+                            <p>Java - Basics</p>
+                            <p>Oracle PL/SQL - Basics</p>
+                            <p>Cisco Certified Network Associate (CCNA) - Basics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <div class="wrapper">
+                <h1>Portfolio</h1>
+                <div class="portfolio-wrapper">
+                    <div class="port-cont"><img src="imgs/portfolio/Screenshot 2022-03-25 at 07-55-06 yvan-test.png" alt="port1"></div>
+                    <div class="port-cont"><img src="imgs/portfolio/obrazok1.jpeg" alt="port2"></div>
+                    <div class="port-cont"><img src="imgs/portfolio/Hunter_Club.png" alt="port3"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="footer-wrapper">
+            <ul class="contact">
+                <li><a href="https://www.facebook.com/IvanMetalhead"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/herra_ukko/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="mailto:ivanlatkoczy666@gmail.com">ivanlatkoczy666@gmail.com</a></li>
+                <li><a href="tel:0911833049">0911833049</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
